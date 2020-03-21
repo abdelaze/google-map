@@ -1,0 +1,43 @@
+html,
+body {
+	font-family: Arial, sans-serif ;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+input {
+	font-size: 16px;
+}
+
+h1 {
+	color: #525454;
+	font-size: 22px;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+#map {
+	order: 2;
+	flex-grow: 7;
+	height: 100%;
+}
+
+.options-box {
+	order: 1;
+	flex-grow: 1;
+	background: #fff;
+
+}
+
+@media only screen and (max-width : 700px)  {
+	.container {
+		flex-direction: column;
+	}
+}
